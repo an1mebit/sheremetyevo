@@ -1,0 +1,55 @@
+{
+    "current_time": "10:30:10",
+    "tasks": {
+        "fly_type_landing": "departure",
+        "point_id": 850,
+        "time_create_action": "11:30:00",
+        "size_passenger": 122
+    },
+    "all_riders": [
+        {
+            "id": "hyunday",
+            "point_id": 854,
+            "size_people": 50,
+            "all_tasks": []
+        },
+        {
+            "id": "kamaz",
+            "point_id": 853,
+            "size_people": 100,
+            "all_tasks": [
+                {
+                    "time_end": "10:30:00"
+                }
+            ]
+        },
+        {
+            "id": "lada",
+            "point_id": 855,
+            "size_people": 50,
+            "all_tasks": []
+        },
+        {
+            "id": "honda",
+            "point_id": 852,
+            "size_people": 100,
+            "all_tasks": [
+                {
+                    "time_end": "10:35:00"
+                }
+            ]
+        },
+        {
+            "id": "audi",
+            "point_id": 856,
+            "size_people": 50,
+            "all_tasks": []
+        },
+        {
+            "id": "porsh",
+            "point_id": 853,
+            "size_people": 100,
+            "all_tasks": []
+        }
+    ]
+}
