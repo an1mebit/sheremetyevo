@@ -1,0 +1,189 @@
+{
+"current_time": "00:00:01",
+"task": {
+    "airline_company": "SU",
+    "airport_city": "Хельсинки",
+    "connect_task": [],
+    "time_create_action": "19:50:59",
+    "number_rais": 2202,
+    "type_gait_bus": "DGA_I",
+    "status_rais": "detained",
+    "airport_code": "HEL",
+    "size_passenger": 142,
+    "date_create_action": "2019-08-24",
+    "fly_type_landing": "departure",
+    "id": 100,
+    "gate_type": "33"
+},
+"all_riders": [
+    {
+    "raider_con": {
+        "unique_code": 3812,
+        "id": 1,
+        "name_rider": "Горбунова Нина Захаровна"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 850,
+        "p_end_connect": 855,
+        "bus_raider_connect": 1,
+        "time_start": "04:25:00",
+        "id": 26,
+        "time_end": "04:40:00"
+        },
+        {
+        "p_start_connect": 850,
+        "p_end_connect": 866,
+        "bus_raider_connect": 1,
+        "time_start": "05:30:00",
+        "id": 42,
+        "time_end": "05:45:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 100,
+        "number_gos": "KУ957 198",
+        "id": 53,
+        "mark_bus": "Neoplan Airliner N 9112 Long"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 5139,
+        "id": 4,
+        "name_rider": "Любосмысл Аверьянович Щербаков"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 850,
+        "p_end_connect": 855,
+        "bus_raider_connect": 3,
+        "time_start": "03:20:00",
+        "id": 22,
+        "time_end": "03:35:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 50,
+        "number_gos": "004D890 53",
+        "id": 43,
+        "mark_bus": "Neoplan Airliner N 9022"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 7843,
+        "id": 6,
+        "name_rider": "Ульяна Юльевна Носова"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 851,
+        "p_end_connect": 850,
+        "bus_raider_connect": 4,
+        "time_start": "00:25:00",
+        "id": 4,
+        "time_end": "00:40:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 50,
+        "number_gos": "EУ4447 121",
+        "id": 47,
+        "mark_bus": "Neoplan Airliner N 9022"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 8214,
+        "id": 11,
+        "name_rider": "Лаврентий ВсеволодовичГромов"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 860,
+        "p_end_connect": 855,
+        "bus_raider_connect": 6,
+        "time_start": "06:55:00",
+        "id": 59,
+        "time_end": "07:10:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 100,
+        "number_gos": "С807ХE 42",
+        "id": 54,
+        "mark_bus": "Neoplan Airliner N 9112 Long"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 3195,
+        "id": 17,
+        "name_rider": "Любовь Анатольевна Кудряшова"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 855,
+        "p_end_connect": 857,
+        "bus_raider_connect": 11,
+        "time_start": "03:20:00",
+        "id": 24,
+        "time_end": "03:35:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 50,
+        "number_gos": "007D622 38",
+        "id": 42,
+        "mark_bus": "Neoplan Airliner N 9022"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 2255,
+        "id": 40,
+        "name_rider": "Анжела Степановна Титова"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 905,
+        "p_end_connect": 907,
+        "bus_raider_connect": 15,
+        "time_start": "05:30:00",
+        "id": 44,
+        "time_end": "05:45:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 100,
+        "number_gos": "AТ551 78",
+        "id": 58,
+        "mark_bus": "Neoplan Airliner N 9112 Long"
+    }
+    },
+    {
+    "raider_con": {
+        "unique_code": 3471,
+        "id": 21,
+        "name_rider": "Евпраксия Валериевна Зиновьева"
+    },
+    "busraider_connect": [
+        {
+        "p_start_connect": 850,
+        "p_end_connect": 852,
+        "bus_raider_connect": 16,
+        "time_start": "07:20:00",
+        "id": 63,
+        "time_end": "07:35:00"
+        }
+    ],
+    "bus_con": {
+        "size_people": 50,
+        "number_gos": "K518РK 52",
+        "id": 48,
+        "mark_bus": "Neoplan Airliner N 9022"
+    }
+    }
+]
+}

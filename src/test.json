@@ -3,7 +3,7 @@
     "tasks": {
         "fly_type_landing": "departure",
         "point_id": 850,
-        "time_create_action": "11:30:00",
+        "time_create_action": "11:40:00",
         "size_passenger": 122
     },
     "all_riders": [
