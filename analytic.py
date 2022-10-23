@@ -47,11 +47,14 @@ def get_task_info(json_from_net):
         now_date = datetime.datetime.now().date()
         current_time = dateutil.parser.parse(json_from_net['current_time'])
         current_time = datetime.datetime(now_date.year, now_date.month, now_date.day, current_time.hour, current_time.minute, current_time.second)
+
         time_create_action = dateutil.parser.parse(json_from_net['task']['time_create_action'])
         time_create_action = datetime.datetime(now_date.year, now_date.month, now_date.day, time_create_action.hour, time_create_action.minute, time_create_action.second)
+        
         task_point_index = location_data.point_id[(location_data['point_id'] == json_from_net['task']['gate_type'])].index
         task_point_index = location_data.location_id[(location_data['location_id'] == json_from_net['task']['gate_type'])].index
         task_point = location_data.iloc[task_point_index[0]]['point_id']
+
         if json_from_net['task']['fly_type_landing'] == "departure":
             path, len = get_matrix_info(task_point, rider['busraider_connect'][0]['p_end_connect'])
             time = int((15 + 30 + len / (1000 / 60))*60)

@@ -11,7 +11,7 @@ CORS(app=app)
 def index():
     json_data = request.get_json()
     print(json_data)
-    return Item(__root__=get_task_info(json_data))
+    return Item(__root__=get_task_info(json_data)).json()
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
